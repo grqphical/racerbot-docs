@@ -7,6 +7,7 @@
 - [Labs](labs)
 - [Resources](resources)
 - [Lecture & Tutorial Notes](notes)
+- [Contributing](CONTRIBUTING.md)
 
 ## UPenn RoboRacer (can be outdated)
 - [RoboRacer](https://roboracer.ai/)
