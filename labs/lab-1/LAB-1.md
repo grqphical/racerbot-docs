@@ -219,4 +219,4 @@ Try thinking of your own answer before pressing details for mine.
 - A3: <details>If you run the file directly (not using `ros2 launch`) then no rebuild needed because ROS 2 will use the launch file from the source space with your changes. If you use `ros2 launch` then rebuild is needed because it will run using the ROS 2 install space. In practice, you should just rebuild and always use `ros2 launch`.</details>
 
 ## Credits
-Written by Milad Abdi, assisted by AI, and adapted from [f1tenth lab 1](https://github.com/f1tenth/f1tenth_lab1_template).
+Adapted from [f1tenth lab 1](https://github.com/f1tenth/f1tenth_lab1_template).
