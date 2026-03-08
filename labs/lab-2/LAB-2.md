@@ -79,4 +79,4 @@ Note that if you're using Windows, make sure your files have Unix style line end
     2. Drive the car with keyboard teleop along the hallways of Levine, showing it doesn't brake when travelling straight in the hallway. You need to show that your safe node doesn't generate false positives. i.e. The car doesn't suddenly stop while travelling down the hallway.
 
 ## Credits
-Written by Milad Abdi and adapted from [f1tenth lab 2](https://github.com/f1tenth/f1tenth_lab2_template).
+Adapted from [f1tenth lab 2](https://github.com/f1tenth/f1tenth_lab2_template).
