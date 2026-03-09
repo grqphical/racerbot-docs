@@ -17,3 +17,6 @@
     - [Tutorial 3 Notes](notes/TUTORIAL-3.md) (optional)
 9. [Lecture 4](https://www.youtube.com/watch?v=qIpiqhO3ITY)
     - [Lecture 4 Notes](notes/LECTURE-4.md) (optional)
+10. [Tutorial 4](https://docs.google.com/presentation/d/1UCK95gx2mgJhX8YmabORjkEsaA3jR8FudmndzV3sHY4/edit?slide=id.p#slide=id.p)
+    - [Tutorial 4 Notes](notes/TUTORIAL-4.md) (optional)
+11. [Lab 3](labs/lab-3/)
