@@ -13,17 +13,17 @@ public:
 
 private:
     // PID CONTROL PARAMS
-    // TODO: double kp =
-    // TODO: double kd =
-    // TODO: double ki =
-    double servo_offset = 0.0;
-    double prev_error = 0.0;
-    double error = 0.0;
-    double integral = 0.0;
+    // TODO: double kp_ =
+    // TODO: double kd_ =
+    // TODO: double ki_ =
+    double servo_offset_ = 0.0;
+    double prev_error_ = 0.0;
+    double error_ = 0.0;
+    double integral_ = 0.0;
 
     // Topics
-    std::string lidarscan_topic = "/scan";
-    std::string drive_topic = "/drive";
+    std::string lidarscan_topic_ = "/scan";
+    std::string drive_topic_ = "/drive";
     /// TODO: create ROS subscribers and publishers
 
     double get_range(float* range_data, double angle)
@@ -98,7 +98,7 @@ private:
     }
 };
 
-int main(int argc, char ** argv)
+int main(int argc, char **argv)
 {
     rclcpp::init(argc, argv);
     rclcpp::spin(std::make_shared<WallFollow>());
