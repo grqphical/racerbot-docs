@@ -12,7 +12,7 @@ First, make sure the Jetson is powered off and unplugged
 
 Plug in a USB-C cable into your computer (do not use hubs, connect it directly to your computer)
 
-Put a jumper on pins 9 and 10 of the button header. The image below (Figure 1.4) shows you where the button header is and what pins to jump
+Put a jumper on pins 9 and 10 of the button header. The image below (Figure 1-4) shows you where the button header is and what pins to jump
 
 ![Figure 1](/assets/resources/figure-1.png)
 
