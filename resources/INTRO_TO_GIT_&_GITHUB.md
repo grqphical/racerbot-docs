@@ -18,7 +18,7 @@ GitHub is a cloud-based hosting platform for your Git repositories. While Git is
 ### Key Features
 - **Remote repo hosting:** Your repo now lives in the cloud and is accessible from anywhere as long as you have an internet connection.
 - **Pull Requests:** A way to propose changes and get them reviewed by others on the team before merging.
-- **Issue:** A built in bug tracker and task list for your project.
+- **Issues:** A built-in bug tracker and task list for your project.
 - **Actions:** Automated workflows for CI/CD testing.
 - **Organizations and Teams:** Allows you to manage access permissions for users.
 
@@ -26,11 +26,11 @@ GitHub is a cloud-based hosting platform for your Git repositories. While Git is
 
 | Feature | Git | GitHub |
 |---|---:|---:|
-| What is it? | Software on your computer | A cloud based version control platform |
+| What is it? | Software on your computer | A cloud-based version control platform |
 | Works offline? | Yes | No |
 | Where is Code Stored? | Locally on your machine | Remotely in the cloud |
 | Main Use? | Track local changes | Track changes, share code and collaborate online |
-| Creators/Owners | Created by Linus Torvalds, now an Open Source Software | Currently owned by Microsoft |
+| Creators/Owners | Created by Linus Torvalds, now maintained as an open-source project by the community | Currently owned by Microsoft |
 
 ## Core Concepts
 - **Repository (Repo)** - A repository is a folder that Git is tracking. It contains your project files plus a hidden `.git` folder that stores all the history and configuration.
@@ -50,7 +50,7 @@ GitHub is a cloud-based hosting platform for your Git repositories. While Git is
 | Command | Description |
 |---|---|
 | `git config --global user.name "Name"` | Set your name (shown in commits) |
-| `git config --global user.email "yourname@email.com"` | Set your email (must match GitHub) |
+| `git config --global user.email "yourname@email.com"` | Set your email (recommended to match GitHub for attribution/verification) |
 | `git config --list` | View all your current Git settings |
 
 ### Starting a Project
@@ -78,7 +78,7 @@ GitHub is a cloud-based hosting platform for your Git repositories. While Git is
 | `git checkout <name>` | Switch to an existing branch |
 | `git checkout -b <name>` | Create a new branch AND switch to it |
 | `git merge <branch>` | Merge the specified branch into the current branch |
-| `git branch -d <name>` | Delete a branch (destructive) |
+| `git branch -d <name>` | Safely delete a branch (refuses unmerged branches) |
 
 ### Working with GitHub (Remote)
 | Command | Description |
@@ -96,7 +96,7 @@ GitHub is a cloud-based hosting platform for your Git repositories. While Git is
 | `git restore <file>` | Discard unstaged changes to a file |
 | `git restore --staged <file>` | Unstage a file (keep changes in working dir) |
 | `git revert <commit-hash>` | Create a new commit that undoes a past commit |
-| `git reset --hard HEAD~1` | Permanently undo last commit (destructive) |
+| `git reset --hard HEAD~1` | Rewind the last local commit and discard all uncommitted changes (working tree and index); rewrites history, so only use for local/unpushed commits |
 | `git stash` | Temporarily save uncommitted changes |
 | `git stash pop` | Re-apply stashed changes |
 
@@ -137,7 +137,9 @@ git push origin feature/motor-controller
 ```
 
 ## The .gitignore File
-A `.gitignore` file tells Git which files and folders to ignore. These are things you never want to commit, like build artifacts, secrets, or IDE config files.
+A `.gitignore` file tells Git which untracked files and folders to ignore. These are often things you do not want to commit, like build artifacts, local environment files, or IDE config files.
+
+**Important:** `.gitignore` is not a security boundary. It does not remove files that are already tracked or secrets that were already committed. If a secret has been committed, rotate it and remove it from Git history, and use secret scanning to help detect exposed credentials.
 
 ## Resources
 - [Git Official Documentation](https://git-scm.com/docs)
