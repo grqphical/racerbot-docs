@@ -118,23 +118,7 @@ git commit -m "asdfghjkl"
 ```
 
 ## Typical Workflow
-Here is the standard workflow you will use when contributing to a Racerbot project on GitHub:
-
-```
-# Clone the repo (first time only)
-git clone <temp_repo>
-
-# Create a feature branch
-git checkout -b feature/motor-controller
-
-# Make changes, then stage and commit
-git add . && git commit -m "Add PID tuning for motor controller"
-
-# Push to GitHub
-git push origin feature/motor-controller
-
-# Open a Pull Request on GitHub and request a review
-```
+Follow these instructions to learn how to contribute: [CONTRIBUTING.md](https://github.com/sfu-racerbot/racerbot-docs/blob/main/CONTRIBUTING.md)
 
 ## The .gitignore File
 A `.gitignore` file tells Git which untracked files and folders to ignore. These are often things you do not want to commit, like build artifacts, local environment files, or IDE config files.
