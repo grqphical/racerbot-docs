@@ -39,22 +39,26 @@
 2. [Tutorial 4](https://docs.google.com/presentation/d/1UCK95gx2mgJhX8YmabORjkEsaA3jR8FudmndzV3sHY4/edit?slide=id.p#slide=id.p)
     - [Tutorial 4 Notes](notes/TUTORIAL-4.md) (optional)
 
+3. [Lecture 4 Kahoot](https://create.kahoot.it/share/lecture-4/a7d332d5-2cd8-4a25-846b-4a85c3156185)
+
+4. [Tutorial 4 Kahoot](https://create.kahoot.it/share/tutorial-4/1dbf75df-11f3-4b2b-a37b-bccf62f48eb8) 
+
 <hr style="border-top: 1px dotted #bbb; background: transparent;">
 
-3. [Lab 3](labs/lab-3/)
+5. [Lab 3](labs/lab-3/)
 
 <hr style="border-top: 1px dotted #bbb; background: transparent;">
 
-4. [Lecture 5](https://www.youtube.com/watch?v=5asfD-_Z9x8)
+6. [Lecture 5](https://www.youtube.com/watch?v=5asfD-_Z9x8)
     - [Lecture 5 Notes](notes/LECTURE-5.md) (optional)
 
 <hr style="border-top: 1px dotted #bbb; background: transparent;">
 
-5. [Lab 4](labs/lab-4/)
+7. [Lab 4](labs/lab-4/)
 
 <hr style="border-top: 1px dotted #bbb; background: transparent;">
 
-6. [Lecture 6](https://www.youtube.com/watch?v=8zr5NUS05cM)
+8. [Lecture 6](https://www.youtube.com/watch?v=8zr5NUS05cM)
     - [Lecture 6 Notes](notes/LECTURE-6.md) (optional)
 
 ## Module C: Mapping & Localization
